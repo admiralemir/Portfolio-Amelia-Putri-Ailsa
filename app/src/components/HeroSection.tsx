@@ -47,66 +47,21 @@ export default function HeroSection() {
               <span className="gradient-text">Amelia Putri Ailsa</span>
             </motion.h1>
 
-            <motion.p
-              variants={itemVariants}
-              className="text-xl md:text-2xl text-[#D2B48C] font-medium mb-6"
-            >
-              UI/UX Designer
-            </motion.p>
 
             <motion.p
               variants={itemVariants}
-              className="text-lg text-gray-600 mb-8 leading-relaxed max-w-lg"
+              className="text-xl text-gray-600 mb-8 leading-relaxed max-w-lg"
             >
-              Passionate about creating beautiful digital experiences. Let's
+              Passionate about Data Analyst and Data Management. Let's
               collaborate and bring your ideas to life.
             </motion.p>
 
-            <motion.div
+            <motion.p
               variants={itemVariants}
-              className="flex flex-wrap gap-4"
+              className="text-xl md:text-lg text-[#D2B48C] font-medium mb-6"
             >
-              <motion.a
-                href="#contact"
-                className="btn-pink"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Contact Me
-              </motion.a>
-              <motion.a
-                href="#"
-                className="btn-outline"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Download CV
-              </motion.a>
-            </motion.div>
-
-            {/* Social Links */}
-            <motion.div variants={itemVariants} className="flex gap-4 mt-8">
-              <motion.a
-                href="https://linkedin.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-gradient-to-r from-[#FADADD] to-[#FFC0CB] flex items-center justify-center text-white hover:shadow-lg transition-shadow"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <span className="text-xl">in</span>
-              </motion.a>
-              <motion.a
-                href="https://instagram.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-12 h-12 rounded-full bg-gradient-to-r from-[#D2B48C] to-[#C4A484] flex items-center justify-center text-white hover:shadow-lg transition-shadow"
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                <span className="text-xl">@</span>
-              </motion.a>
-            </motion.div>
+              Scroll down or click the navbar to explore my work and experience!
+            </motion.p>
           </motion.div>
 
           {/* Profile Image */}
