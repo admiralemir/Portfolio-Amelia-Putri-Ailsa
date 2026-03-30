@@ -10,10 +10,11 @@ interface Skill {
 
 export default function SkillsSection() {
   const skillsData: Skill[] = [
-    { name: "Communication", level: 90, category: "Soft Skills" },
-    { name: "Teamwork", level: 85, category: "Soft Skills" },
+    { name: "Time Management", level: 90, category: "Soft Skills" },
     { name: "Problem Solving", level: 88, category: "Soft Skills" },
-    { name: "Leadership", level: 80, category: "Soft Skills" },
+    { name: "Adaptability", level: 85, category: "Soft Skills" },
+    { name: "Ability to Learn Quickly", level: 80, category: "Soft Skills" },
+    { name: "Good Team Collaboration", level: 80, category: "Soft Skills" },
     { name: "UI/UX Design", level: 85, category: "Technical" },
     { name: "Figma", level: 88, category: "Technical" },
     { name: "Web Design", level: 82, category: "Technical" },
